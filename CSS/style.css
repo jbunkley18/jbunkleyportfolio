@@ -65,7 +65,18 @@
 	padding: 100px 0;
 }
 
+.row .col h2 {
+	padding: 0px 100px 100px 100px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-align: center;
+}
+
 .aboutImage {
 	max-width: 100%;
+	padding: 0px 0px 50px 0px;
+}
+
+.col-md-7{
+	font-family: 'Open Sans Condensed', sans-serif;
 }
 
