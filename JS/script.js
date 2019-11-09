@@ -7,8 +7,8 @@ $(document).ready(function() {
 
 	var typed = new Typed('.typed', {
 		strings: ['Web Developer'],
-		typeSpeed: 70,
-		startDelay: 1000,
+		typeSpeed: 50,
+		startDelay: 500,
 		showCursor: false
 	});
 });
