@@ -1,53 +1,70 @@
 <!DOCTYPE html>
 <html>
-<head>
 
+<head>
 	<title>Jennifer Bunkley Portfolio</title>
 
-	<link rel="stylesheet" type="text/css" href="css/superslides.css">
+	<!-- CSS files: my CSS file, superslides, owl carousel, and bootstrap-->	
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/superslides.css">
 	<link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+	<!-- JS file for jquery-->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+	<!--Link for google font -->
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap" rel="stylesheet">
-
 </head>
-<body>
-	<div id="slides">
-		<div class="overlay"></div>
-  		<div class="slides-container">
-   			<img src="img/slide1.jpeg" alt="">
-    		<img src="img/slide2.jpeg" alt="">
-    		<img src="img/slide3.jpeg" alt="">
- 		</div>
 
- 		<div class="title">
+<body>
+	<!-- Header with sliding images, a static title,  a typed text subheading, and buttons to click through images -->
+	<header>
+		<!-- Sliding images -->
+		<div id="slides">
+			<div class="overlay">  		
+				<div class="slides-container">
+		   			<img src="img/slide1.jpeg" alt="">
+		    		<img src="img/slide2.jpeg" alt="">
+		    		<img src="img/slide3.jpeg" alt="">
+		    	</div>
+	 		</div>
+	 	</div>
+
+	 	<!-- Title and subheader -->	
+	 	<div class="title">
 			<div class="heading">
 				<p class="main">JENNIFER BUNKLEY</p>
 				<p class="sub typed"></p>
 			</div>
 		</div>
 
- 		<nav class="slides-navigation">
-		    <a href="#" class="next"></a>
-		    <a href="#" class="prev"></a>
+		<!-- Slides navigation buttons -->
+	 	<nav class="slides-navigation">
+			<a href="#" class="next"></a>
+			<a href="#" class="prev"></a>
 		</nav>
+	</header>
 
-	</div>
-
-
+	<!-- About Me Section -->
 	<div id="about" class="section">
 		<div class="container">
+			<!--First Row of the Container has the header text-->
 			<div class="row">
 				<div class="col-md-12">
 					<h2 class="header">ABOUT ME</h2>
 				</div>
+			</div>
+
+			<!--Second Row of Container has my image (1/3 of container row) and a short bio(2/3 of container row)-->
 			<div class="row">
-				<div class="col-md-5">
+				<!-- My Image -->
+				<div class="col-md-4">
 					<img class="aboutImage" src="img/me/jbunkley1.png">
 				</div>
 
-				<div class="col-md-7">
+				<!-- My Bio -->
+				<div class="col-md-8">
 					<p>Hello, my name is Jennifer Bunkley.</p>
 
 					<p>As an undergrad at Princeton University, I had the pleasure of taking the highly esteemed COS 126, an expansive computer science class that covered various computer science theories, such as maximizing performance, the theory of computing, and sorting and searching, all while learning how to program using Java. I am pleased to say that this class ignited in me an interest in computer science.</p>	
@@ -57,48 +74,84 @@
 					<p>My willingness and adeptness at learning new IT and computer science skills and concepts are complemented by my humanities background, a background that has given me a superior ability to develop and maintain strong team relationships, very strong time and project management skills, and the ability to effectively communicate difficult concepts both verbally and in written form.</p>	
 				</div>
 			</div>
+
 		</div>
 	</div>
 
+	<!-- Skills Section -->
 	<div id="skills" class="skillsSection section">
 		<div class="container">
 			<div class="row">
+				<!-- Header for the skills container  -->
 				<div class="col-md-12 text-center">
 					<h2>TECHNICAL SKILLS</h2>
 					<p>A visual representation of my proficiency in various skills.</p>
 				</div>
 
+				<!-- Owl Carousel and Easy Pie Charts for visually representing skills -->
 				<div class="owl-carousel owl-theme">
+
+					<!-- Each div represents a different skill -->
 				    <div class="skill">
-				    	<span class="chart" data-percent="67">
-				    		<span class="percent">67</span>
+				    	<span class="chart" data-percent="75">
+				    		<span class="percent">75</span>
 				    		<canvas height="152" width="152"></canvas>
 				    	</span>
 				    	<h4>HTML</h4>
-				    	<p> description</p>
+				    	<p>description</p>
 				    </div>
+
 				    <div class="skill">
 				    	<span class="chart" data-percent="67">
 				    		<span class="percent">67</span>
 				    		<canvas height="152" width="152"></canvas>
 				    	</span>
 				    	<h4>CSS</h4>
-				    	<p> description</p>
+				    	<p>description</p>
 				    </div>
+
+				    <div class="skill">
+				    	<span class="chart" data-percent="50">
+				    		<span class="percent">50</span>
+				    		<canvas height="152" width="152"></canvas>
+				    	</span>
+				    	<h4>Javascript</h4>
+				    	<p>description</p>
+				    </div>
+
+				    <div class="skill">
+				    	<span class="chart" data-percent="67">
+				    		<span class="percent">67</span>
+				    		<canvas height="152" width="152"></canvas>
+				    	</span>
+				    	<h4>Java</h4>
+				    	<p>description</p>
+				    </div>
+
+				    <div class="skill">
+				    	<span class="chart" data-percent="10">
+				    		<span class="percent">10</span>
+				    		<canvas height="152" width="152"></canvas>
+				    	</span>
+				    	<h4>Python</h4>
+				    	<p>description</p>
+				    </div>
+
 				</div>
 			</div>
 		</div>
 	</div>
 
+	<!-- JS files for superslides, typed text animation, owl carousel, and easy pie chart -->
 	<script src="js/jquery.superslides.min.js"></script>
 	<script src="js/typed.min.js"></script>
 	<script src="js/owl.carousel.min.js"></script>
 	<script src="js/jquery.easypiechart.min.js"></script>
 
-
+	<!-- JS files for bootstrap and personal js file -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
 	<script src="js/script.js"></script>
+
 </body>
 </html>
