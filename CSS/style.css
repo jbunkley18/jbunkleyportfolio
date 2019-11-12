@@ -84,13 +84,24 @@ body, .container {
 /*Skills Section*/
 .skillsSection {
 	color: #e5e9eb;
-	letter-spacing: 5px;
 	background-color: #a29bfe;
+}
+
+.row .text-center h2{
+	padding: 0;
+}
+
+.row .text-center p{
+	padding-bottom: 30px;
 }
 
 .skill {
 	text-align: center;
 	margin-left: 10px;
+}
+
+.skill h4{
+	padding-top: 15px;
 }
 
 .chart {
@@ -108,7 +119,7 @@ body, .container {
 }
 
 .chart .percent {
-	color: #fff;
+	color: #000;
 	line-height: 152px;
 	display: inline-block;
 	font-size: 35px;
