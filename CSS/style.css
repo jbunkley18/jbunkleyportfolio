@@ -82,7 +82,7 @@ body, .container {
 }
 
 /*Skills Section*/
-.skillsSection {
+.skillsSection, .contactSection {
 	color: #e5e9eb;
 	background-color: #a29bfe;
 }
@@ -127,4 +127,19 @@ body, .container {
 
 .chart .percent:after {
 	content: '%';
+}
+
+.contactButton {
+	background-color: #ffff;
+	padding: 10px 10px;
+	margin-top: 20px;
+	display: inline-block;
+	color: #a29bfe;
+	border-width: 2px;
+	border-radius: 20px;
+}
+
+.contactButton:hover {
+	text-decoration: none;
+	
 }
