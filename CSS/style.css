@@ -47,18 +47,17 @@ body, .container {
 }
 
 .title .heading p {
-	color: #ffff;
+	color: #fff;
 	font-weight: 200;
 	letter-spacing: 12px;
 }
 
 .title .heading .main{
 	font-size: 30px;
-	text-shadow: 1px 1px #b4b9bb;
 }
 
 .title .heading .sub {
-	color: #b4b9bb;
+	color: #fff;
 	font-size: 10px;
 }
 
@@ -82,9 +81,9 @@ body, .container {
 }
 
 /*Skills Section*/
-.skillsSection, .contactSection {
-	color: #e5e9eb;
-	background-color: #a29bfe;
+.skillsSection {
+	color: #fff;
+	background-color: #AB82CC;
 }
 
 .row .text-center h2{
@@ -128,15 +127,15 @@ body, .container {
 .chart .percent:after {
 	content: '%';
 }
-
 .contactButton {
-	background-color: #fff;
+	background-color: #AB82CC;
 	padding: 10px 10px;
 	margin-top: 20px;
 	display: inline-block;
-	color: #a29bfe;
-	border-width: 2px;
+	color: #fff;
+	border-width: 20px;
 	border-radius: 20px;
+	border-color: #AB82CC;
 }
 
 .contactButton:hover {
@@ -167,4 +166,15 @@ body, .container {
 	width: 100%;
 	height: 100%;
 	background: url(../img/loader.gif) center center no-repeat; 
+}
+
+.section .heading {
+	text-align: center;
+	padding-bottom: 40px;
+	width: 100%;
+}
+
+.col-lg-3 .item img{
+	width:100px;
+	height: 100px;
 }
