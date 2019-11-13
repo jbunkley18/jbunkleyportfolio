@@ -13,8 +13,8 @@ $(document).ready(function() {
 	});
 
 	$('.owl-carousel').owlCarousel({
-	    loop:true,
-	    items:4,
+	    loop:false,
+	    items:5,
 	    responsive:{
 	        0:{
 	            items:1
